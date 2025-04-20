@@ -252,7 +252,7 @@
     <button id="speed-control">⏩</button>
 
     <audio id="birthday-music" onerror="alert('音乐加载失败！')">
-        <source src="/to-Ms.Min/birthday-music.mp3" type="audio/mpeg">
+        <source src="/to-Ms.M/birthday-music.mp3" type="audio/mpeg">
     </audio>
 
     <script>
@@ -299,7 +299,7 @@
         function loadAndPositionPhotos() {
             birthdayPhotos.forEach((photo, index) => {
                 // 加载照片
-                photo.src =`/to-Ms.Min/birthday-photo${index+1}.jpg`;
+                photo.src =`/to-Ms.M/birthday-photo${index+1}.jpg`;
 
                 // 随机大小 (150-300px)
                 const size = Math.random() * 150 + 150;
